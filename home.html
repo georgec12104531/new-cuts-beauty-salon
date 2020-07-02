@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>New Cuts</title>
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/sup-styles.css">
+  <link rel="stylesheet" href="foundation-icons/foundation-icons.css">
+  <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+ <!--  // <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script> -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+ <script src="js/gmaps.js"></script>
+  <script>
+window.initMap = function() {};
+  </script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyddpSJKEABHn5dCrFkz6_gCQblKsntso&callback=initMap"
+  type="text/javascript"></script>
+    <script src="js/sup-topbar.min.js"></script>
+
+  <style>
+    .scrolloff {
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+  <div id="home">
+    <div class="slideUp">
+      <nav class="top-bar" data-topbar>
+            <ul class="title-area">
+                <li class="name">
+                    <h1>
+                        <a href="#">New Cuts Beauty Salon</a>
+                    </h1>
+                </li>
+                <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+                <li class="toggle-topbar menu-icon">
+                    <a href="#">
+                        <span>Menu</span>
+                    </a>
+                </li>
+            </ul>
+            <section class="top-bar-section">
+                <!-- Right Nav Section -->
+                <ul id="nav" class="right">
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a href="#map">Map</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+
+            </section>
+        </nav>
+    </div>
+  </div>
+ 
+  <header class="bg-image">
+    <div class="container jumbotron">
+    <!--   <div class="row">
+        <div class="columns small-12 medium-10 medium-offset-1 text-center"> -->
+          <!-- <h1 class="jumbotron-title">New Cuts</h1> -->
+          <div class="tagline-container table-parent">
+            <div class="tagline-row table-cell-bottom">
+              <div class="row store-details">
+                <div class="columns small-12 medium-4">
+                  <h3>707 E. El Camino Real</br>Mountain View, CA 94040</h3>
+                  <a href="tel:+16506250268">
+                    <h3><i class="fi-telephone"></i> (650)625-0268</h3>
+                  </a>
+                </div>
+                <div class="columns small-12 medium-offset-5 medium-3 end store-hours hide-on-small-screen text-center">
+                  <!-- <h2>Open</h2> -->
+                  <h3>Hours</h3>
+                  <h4>Mon-Fri: 10am - 7pm </h4>
+                  <h4>Sat: 9am - 6pm </h4>
+                  <h4>Sun: 10am - 6pm </h4>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- </div> -->
+      <!-- </div> -->
+    </div>
+  </header>
+  <main>
+    <div class="scissors">
+      <img class="scissor-comb" src="./img/scissor-comb.png">
+    </div>
+    <section id="about" class="welcome section-40">
+      <div class="container container-wide">
+        <div class="row">
+          <div class="columns small-12">
+            <h2 class="section-title">Welcome</h2>
+            <div class="title-line"></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="columns small-12 medium-6">
+            <div class="salon-photo-1">
+              <div class="established">
+                <h2>Since 1989</h2>
+              </div>
+            </div>
+          </div>
+          <div class="columns small-12 medium-6">
+            <h4 class="text-center satisfy">Get the best services at lowest prices imaginable</h4>
+            <p>Our hair salon is committed to quality haircuts and exceptional customer service at affordable prices in a relaxing friendly atmosphere. Our dedicated hair stylists deliver the experience tailored to the your needs.
+              <br></br>So, come and try! Make sure you are in the right place. Don't miss your chance to look your best!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="services" class="services section-40">
+      <h2 class="section-title">Services</h2>
+      <div class="title-line"></div>
+      <div class="container">
+        <div class="row">
+          <div class="columns small-12 medium-6">
+            <div class="salon-photo salon-photo-2">
+              <div class="v-design-line"></div>
+            </div>
+          </div>
+          <div class="columns small-12 medium-6 price-box">
+            <h3 class="services-category text-center satisfy">Hair &amp; Style</h3>
+              <ul class="services-prices">
+                <li><span class="service">Men's Cut</span><span class="price">$15</span></li>
+                <li><span class="service">Women's Cut</span><span class="price">$20 and up</span></li>
+                <li><span class="service">Perm</span><span class="price">$55 and up</span></li>
+                <li><span class="service">Color</span><span class="price">$50 and up</span></li>
+                <li><span class="service">Shampoo</span><span class="price">$6 and up</span></li>
+                <li><span class="service">Shampoo Set</span><span class="price">$20 and up</span></li>
+                <li><span class="service">Blow Dry</span><span class="price">$15 and up</span></li>
+                <li><span class="service">Style</span><span class="price">$25 and up</span></li>
+                <li><span class="service">Highlight</span><span class="price">Ask for price</span></li>
+              </ul>
+          </div>
+          <div class="columns small-12 medium-6 price-box">
+            <h3 class="services-category text-center satisfy">Facial &amp; Waxing</h3>
+              <ul class="services-prices">
+                <li><span class="service">European Facial</span><span class="price">$65</span></li>
+                <li><span class="service">Eyebrows</span><span class="price">$15</span></li>
+                <li><span class="service">Lip</span><span class="price">$10</span></li>
+                <li><span class="service">Arms</span><span class="price">$35</span></li>
+                <li><span class="service">Bikini</span><span class="price">$30-45</span></li>
+                <li><span class="service">Underarm</span><span class="price">$25</span></li>
+                <li><span class="service">Upper Legs</span><span class="price">$30</span></li>
+                <li><span class="service">Lower Legs</span><span class="price">$30</span></li>
+                <li><span class="service">Back or Chest</span><span class="price">$40</span></li>
+                <li><span class="service">Ear Piercing</span><span class="price">$30</span></li>
+              </ul>
+          </div>
+          <div class="columns small-12 medium-6">
+            <div class="salon-photo salon-photo-3">
+              <div class="v-design-line"></div>
+            </div>
+            
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <section id="map" class="map section-40">
+      <h2 class="section-title">Map</h2>
+      <div class="title-line"></div>
+      <div class="row">
+        <div id="canvas" class="columns small-12">
+          <div id="map_canvas" style="height: 500px;"></div>
+        </div>
+        <div class="columns small-12 text-center">
+          <h3>707 E. El Camino Real 
+          </br>Mountain View, CA 94040</h3>
+          <h3 class="show-on-small-only">
+            <a target="_blank" href="https://www.google.com/maps/place/New+Cuts+Hair+and+Beauty+Salon/@37.3692438,-122.0744152,14z/data=!4m8!1m2!2m1!1sgoogle+maps+new+cuts+beauty+salon+mountain+view!3m4!1s0x808fb6dc3c73a8f9:0x883e5c3aeee7aff2!8m2!3d37.3755915!4d-122.0636974">View on Google Maps</a>
+          </h3>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact section-40">
+      <h2 class="section-title">Contact Us</h2>
+      <div class="title-line"></div>
+      <!-- <div class="row">
+        <div class="columns small-12">
+          <h3>Hours</h3>
+          <h4>Mon-Fri: 10am - 8pm </h4>
+          <h4>Sat: 9am - 6pm </h4>
+          <h4>Sun: 10am - 6pm </h4>
+        </div>
+      </div> -->
+
+      <div class="contact-container table-parent">
+        <div class="tagline-row table-cell-bottom">
+          <div class="row store-details">
+            <div class="columns small-12 store-hours text-center">
+              <!-- <h2>Open</h2> -->
+              <h3>Hours</h3>
+              <h4>Mon-Fri: 10am - 8pm </h4>
+              <h4>Sat: 9am - 6pm </h4>
+              <h4>Sun: 10am - 6pm </h4>
+              <a href="tel:+16506250268">
+                    <h3><i class="fi-telephone"></i> (650)625-0268</h3>
+                  </a>
+            </div>
+            <div class="column small-12">
+              <p class="copyright">
+                © 2019 New Cuts Beauty Salon</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div id="picture" class="owner-photo circle"></div> -->
+    </section>
+  </main>
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/foundation.min.js"></script>
+  <script src="js/sup-topbar.min.js"></script>
+  <!-- // <script src="js/jquery.lettering-0.6.1.min.js"></script> -->
+  <!-- Google Maps JS API -->
+    <!-- // <script src="https://maps.googleapis.com/maps/api/js"></script> -->
+
+  <script>
+  $(document).foundation();   
+    $(document).ready(function() {
+
+
+       /* Map Object */
+      var mapObj = new GMaps({
+        el: '#map_canvas',
+        lat: 37.375597,
+        lng: -122.063690,
+        zoom: 15
+      });
+      var m = mapObj.addMarker({
+        lat: 37.375597,
+        lng: -122.063690,
+        title: 'New Cuts',
+        infoWindow: {
+          content: '<h4>New Cuts</h4><div>707 E. El Camino Real Mountain View, CA</div><a target="_blank" href="https://www.google.com/maps/place/New+Cuts+Hair+and+Beauty+Salon/@37.3692438,-122.0744152,14z/data=!4m8!1m2!2m1!1sgoogle+maps+new+cuts+beauty+salon+mountain+view!3m4!1s0x808fb6dc3c73a8f9:0x883e5c3aeee7aff2!8m2!3d37.3755915!4d-122.0636974">View on Google Maps</a>',
+          maxWidth: 100
+        }
+      });
+
+        $('#map_canvas').addClass('scrolloff'); // set the pointer events to none on doc ready
+        $('#canvas').on('click', function() {
+            $('#map_canvas').removeClass('scrolloff'); // set the pointer events true on click
+        });
+
+    // you want to disable pointer events when the mouse leave the canvas area;
+
+     $( "#map_canvas" ).mouseleave(function() {
+          $('#map_canvas').addClass('scrolloff'); // set the pointer events to none when mouse leaves the map area
+     });    
+    })
+     
+    </script>
+
+
+</body>
+</html>
